@@ -85,7 +85,7 @@
                 <span
                   class="input-group-text"
                   id="basic-addon1"
-                  style="border: none; background-color: white"
+                  style="border-right: none; background-color: white"
                 >
                   <i class="material-icons">
                     <img src="images/search.jpg" alt="" /> </i
@@ -96,11 +96,15 @@
                   placeholder="Type keywords to find answers"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
-                  style="padding: 1em; font-family: Inter, cursive"
+                  style="
+                    padding: 1em;
+                    font-family: Inter, cursive;
+                    border-left: 0;
+                  "
                 />
               </div>
 
-              <div style="margin-top: 12em">
+              <div style="margin-top: 16em">
                 <h2>Frequently Asked Questions (FAQs)</h2>
               </div>
             </div>
@@ -109,7 +113,8 @@
                 src="images/faq.png"
                 alt="faq-img"
                 class="img-fluid"
-                height="1em"
+                height="4em"
+                style="margin-left: 1em"
               />
             </div>
           </div>
@@ -117,8 +122,20 @@
       </section>
 
       <!-- section2 -->
-      <section class="second accordion container" id="questions">
-        <div class="container" style="justify-content: center">
+      <section
+        class="second accordion container"
+        id="questions"
+        style="width: 70%"
+      >
+        <div
+          class="container one"
+          style="
+            border-style: groove;
+            border-radius: 0.3em;
+            margin-top: 0;
+            margin-bottom: 1em;
+          "
+        >
           <h5
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample1"
@@ -126,17 +143,26 @@
             aria-controls="multiCollapseExample1"
             style="cursor: pointer"
           >
-            <img src="images/add.jpg" alt="Add image" /> How can I download a
-            template of Terms and Condition?
+            <img src="images/add.jpg" alt="Add image" />
+            <strong
+              >How can I download a template of Terms and Condition?</strong
+            >
           </h5>
-          <div>
-            <p class="collapse multi-collapse px-5" id="multiCollapseExample1">
-              You can download a template of a Terms and Condition when you
-              register and fill in your neccessary details needed to generate a
-              template for you.
-            </p>
-          </div>
+          <p
+            class="collapse multi-collapse px-5"
+            id="multiCollapseExample1"
+            style="border-top-style: groove"
+          >
+            You can download a template of a Terms and Condition when you
+            register and fill in your neccessary details needed to generate a
+            template for you.
+          </p>
+        </div>
 
+        <div
+          class="container two"
+          style="border-style: groove; border-radius: 0.3em; margin-bottom: 1em"
+        >
           <h5
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample2"
@@ -145,17 +171,24 @@
             style="cursor: pointer"
           >
             <img src="images/add.jpg" alt="Add image" />
-            Will my data be shared with third parties?
+            <strong> Will my data be shared with third parties?</strong>
           </h5>
-          <div>
-            <p class="collapse multi-collapse px-5" id="multiCollapseExample2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
-              eaque minus. Modi quis quidem vitae aliquid eveniet recusandae,
-              dignissimos sapiente officia sit temporibus qui reprehenderit hic
-              cupiditate, quod totam eos.
-            </p>
-          </div>
+          <p
+            class="collapse multi-collapse px-5"
+            id="multiCollapseExample2"
+            style="border-top-style: groove"
+          >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+            eaque minus. Modi quis quidem vitae aliquid eveniet recusandae,
+            dignissimos sapiente officia sit temporibus qui reprehenderit hic
+            cupiditate, quod totam eos.
+          </p>
+        </div>
 
+        <div
+          class="container three"
+          style="border-style: groove; border-radius: 0.3em; margin-bottom: 1em"
+        >
           <h5
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample3"
@@ -163,18 +196,27 @@
             aria-controls="multiCollapseExample3"
             style="cursor: pointer"
           >
-            <img src="images/add.jpg" alt="Add image" /> Will I have to pay to
-            generate templates on your website?
+            <img src="images/add.jpg" alt="Add image" />
+            <strong
+              >Will I have to pay to generate templates on your website?</strong
+            >
           </h5>
-          <div>
-            <p class="collapse multi-collapse px-5" id="multiCollapseExample3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              repellat sint officiis laborum expedita, placeat nam quo magnam
-              dolorem repellendus itaque nihil id qui ex repudiandae voluptates!
-              Non, praesentium ratione. No
-            </p>
-          </div>
+          <p
+            class="collapse multi-collapse px-5"
+            id="multiCollapseExample3"
+            style="border-top-style: groove"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+            repellat sint officiis laborum expedita, placeat nam quo magnam
+            dolorem repellendus itaque nihil id qui ex repudiandae voluptates!
+            Non, praesentium ratione. No
+          </p>
+        </div>
 
+        <div
+          class="container four"
+          style="border-style: groove; border-radius: 0.3em; margin-bottom: 1em"
+        >
           <h5
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample4"
@@ -182,23 +224,25 @@
             aria-controls="multiCollapseExample4"
             style="cursor: pointer"
           >
-            <img src="images/add.jpg" alt="Add image" /> Can I generate privacy
-            policy without signing up?
+            <img src="images/add.jpg" alt="Add image" />
+            <strong>Can I generate privacy policy without signing up?</strong>
           </h5>
-          <div>
-            <!-- <img src="./images/minus.jpg" alt="Minus image">  -->
-            <p
-              class="collapse multi-collapse px-5 py-5"
-              id="multiCollapseExample4"
-            >
-              <!-- <img src="./images/minus.jpg" alt="Minus image">  -->
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
-              dicta harum ex deleniti omnis? Impedit sunt nulla aperiam
-              voluptatem consequuntur! Facilis expedita explicabo voluptates
-              facere fuga consectetur nostrum fugit placeat?
-            </p>
-          </div>
+          <p
+            class="collapse multi-collapse px-5"
+            id="multiCollapseExample4"
+            style="border-top-style: groove"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dicta
+            harum ex deleniti omnis? Impedit sunt nulla aperiam voluptatem
+            consequuntur! Facilis expedita explicabo voluptates facere fuga
+            consectetur nostrum fugit placeat?
+          </p>
+        </div>
 
+        <div
+          class="container five"
+          style="border-style: groove; border-radius: 0.3em; margin-bottom: 4em"
+        >
           <h5
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample5"
@@ -206,57 +250,50 @@
             aria-controls="multiCollapseExample5"
             style="cursor: pointer"
           >
-            <img src="images/add.jpg" alt="Add image" /> Are your terms and
-            conditions, privacy policy unique to each users?
-          </h5>
-          <div>
-            <p
-              class="collapse multi-collapse px-5 py-5"
-              id="multiCollapseExample5"
+            <img src="images/add.jpg" alt="Add image" />
+            <strong
+              >Are your terms and conditions, privacy policy unique to each
+              user?</strong
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              amet delectus provident, excepturi, totam quaerat hic optio error
-              fugiat ut ad, voluptatibus tempore minima aut aspernatur tenetur
-              molestiae sit at?
-            </p>
-          </div>
+          </h5>
+          <p
+            class="collapse multi-collapse px-5"
+            id="multiCollapseExample5"
+            style="border-top-style: groove"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet
+            delectus provident, excepturi, totam quaerat hic optio error fugiat
+            ut ad, voluptatibus tempore minima aut aspernatur tenetur molestiae
+            sit at?
+          </p>
         </div>
       </section>
+
       <!-- section3 -->
       <section
-        class="third container"
+        class="container hstack gap-3"
         style="
           background-color: #111f4d;
           color: white;
-          margin: 7em;
-          border-radius: 0.2em;
+          margin-bottom: 5em;
+          border-radius: 0.3em;
+          padding: 1em;
         "
       >
-        <div class="container px-4">
-          <div class="row gx-5">
-            <div class="col">
-              <div class="p-3 border; border:none">
-                <h5>Still have questions?</h5>
-
-                <p>
-                  Can't find answers to your questions? Please chat our team
-                </p>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3 border; border: none">
-                <button
-                  class="col align-self-end"
-                  style="border: none; background-color: white"
-                >
-                  <p style="margin: 1em; border: none">Get in touch</p>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="container">
+          <h5>Still have questions?</h5>
+          <p>Can't find answers to your questions? Please chat our team.</p>
         </div>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          style="color: #111f4d; background-color: white; margin-right: 2em"
+        >
+          Get in touch
+        </button>
       </section>
     </main>
+
     <!-- Footer -->
     <footer
       class="container-fluid"
